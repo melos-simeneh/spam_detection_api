@@ -67,7 +67,7 @@ spam_detection_api/
     uvicorn app.main:app --reload
     ```
 
-Go to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to test the API interactively.
+    Go to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to test the API interactively.
 
 ## 📝 API Endpoints
 
