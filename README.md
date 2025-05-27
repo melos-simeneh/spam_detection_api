@@ -67,8 +67,6 @@ spam_detection_api/
     uvicorn app.main:app --reload
     ```
 
-6. **Open API docs**
-
 Go to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to test the API interactively.
 
 ## 📝 API Endpoints
@@ -77,21 +75,21 @@ Go to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to test the API i
 
 - `POST /predict` - Predict if a message is spam or ham
 
-**Request body:**
+    **Request body:**
 
-  ```json
+    ```json
     {
         "text": "Your SMS message here"
     }
-  ```
+    ```
 
-**Response:**
+    **Response:**
 
-   ```json
+    ```json
     {
         "prediction": "spam"
     }
-   ```
+    ```
 
 ## 📬 Contact
 
